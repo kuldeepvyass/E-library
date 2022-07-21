@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 35%;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.search-button {
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 80px;
+    background: #FF8C00;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+body {
+    background: url("lg3.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: auto;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+th {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px 5px black;
+}
+
+.main {
+    width: 80%;
+    border-radius: 20px;
+    overflow: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.57);
+}
+
+.box {
+    width: 74%;
+    height: 150px;
+    background-size: cover;
+    margin-left: 13%;
+    opacity: .9;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #00bfa6;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    border-radius: 4px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul li a:hover {
+    background-color: orange;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.nav {
+    padding-left: 6%;
+    margin-left: 7%;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+}
+
+.three {
+    margin-left: 60%;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px green;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("lg3.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #FFFFFF;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.box {
+    width: 74%;
+    height: 160px;
+    background-size: cover;
+    margin-left: 13%;
+    opacity: .9;
+    text-align: center;
+}
+
+.header {
+    width: 400px;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 400px;
+    margin-left: 13%;
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-right: 26%;
+    padding-left: 0%;
+    margin-left: 5%;
+    padding-right: 0%;
+    border-radius: 15px;
+}
+
+.title h2 {
+    background: ORANGE;
+    border: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-left: 150px;
+    border-radius: 15px;
+    width: 500px;
+    letter-spacing: 2px;
+}
+
+.container {
+    margin-top: 15px;
+    margin-left: 20%;
+    font-weight: 10px;
+    height: 430px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 3%;
+    width: 600px;
+    border-radius: 18px;
+    overflow: auto;
+}
+
+.header input[type="submit"] {
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background: orange;
+    color: #FFFFFF;
+    border-radius: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #00bfa6;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: orange;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.nav {
+    padding-left: 20%;
+}

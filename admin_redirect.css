@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: orange;
+    border: solid 2px orange;
+    border-radius: 10px;
+    width: 84%;
+    height: 40px;
+    margin-left: 9%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+body {
+    background: url("pexels-photo-590493.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    
+    width: 90%;
+    border-radius: 20px;
+    overflow: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.57);
+}
+
+.box {
+    width: 74%;
+    height: 110px;
+    background-size: cover;
+    margin-left: 13%;
+    margin-top: 40px;
+    opacity: .9;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 280px;
+    height: 40px;
+    background-color: #00bfa6;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-shadow: 2px 2px 5px black;
+}
+
+ul li a:hover {
+    background-color: orange;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.nav {
+    padding-left: 12%;
+    margin-left: 8%;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+}
+
+.three {
+    margin-left: 60%;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px green;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    position: absolute;
+    top: 30px;
+    left: 460px;
+}
+
+h2 {
+    line-height: 1px;
+    position: relative;
+    top: 20px;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
